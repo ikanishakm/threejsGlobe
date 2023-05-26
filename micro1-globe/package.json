@@ -1,0 +1,29 @@
+{
+  "name": "micro1-globe",
+  "version": "0.0.2",
+  "description": "micro1 talent and clients",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config=webpack.prod.js",
+    "build-dev": "webpack --config=webpack.dev.js",
+    "start": "webpack serve webpack-dev-server --open --config=webpack.dev.js",
+    "deploy": "aws s3 sync build/ s3://micro1-globe --profile moon --acl public-read",
+    "boom": "npm run build && npm run deploy"
+  },
+  "keywords": [],
+  "author": "Umang",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.152.2",
+    "three-globe": "^2.27.2",
+    "three-glow-mesh": "^0.1.2"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "json-loader": "^0.5.7",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

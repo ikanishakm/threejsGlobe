@@ -1,0 +1,50 @@
+[
+  {
+    "lat": 27.357132,
+    "lng": 76.576434,
+    "name": "Developer A",
+    "image": "https://micro1-portal-data.s3.amazonaws.com/developers/1670940361362-6308c616cd723c11fabe92801573112127536.jpeg"
+  },
+  {
+    "lat": 43.5795945,
+    "lng": 2.6881179,
+    "name": "Client A",
+    "image": "https://micro1-portal-data.s3.amazonaws.com/developers/1680643444722-screenshot-2023-04-04-at-18.23.22.png"
+  },
+  {
+    "lat": 9.085824,
+    "lng": 77.27795,
+    "name": "Developer B",
+    "image": "https://micro1-portal-data.s3.amazonaws.com/developers/1671027879141-1516827018472.jpg"
+  },
+  {
+    "lat": 46.423669,
+    "lng": -129.9427086,
+    "name": "Client B",
+    "image": "https://micro1-portal-data.s3.amazonaws.com/developers/1671449479668-wingassistant.png"
+  },
+  {
+    "lat": 52.520008,
+    "lng": 13.404954,
+    "name": "Developer C",
+    "image": "https://www.w3schools.com/w3images/avatar5.png"
+  },
+  {
+    "lat": 40.712776,
+    "lng": -74.005974,
+    "name": "Client C",
+    "image": "https://www.w3schools.com/w3images/avatar6.png"
+  },
+  {
+    "lat": 20.287961,
+    "lng": 73.413291,
+    "name": "Developer D",
+    "image": "https://micro1-portal-data.s3.amazonaws.com/developers/1671026326825-6308c616cd723c2cd3be91fd1617700880675.jpeg"
+  },
+  {
+    "lat": 16.283233,
+    "lng": 17.123528,
+    "name": "Client D",
+    "image": "https://micro1-portal-data.s3.amazonaws.com/developers/1681763534203-b012df08d7de41e0a1d45d86f75b6dca.png"
+  }
+]
